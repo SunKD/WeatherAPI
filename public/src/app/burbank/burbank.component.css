@@ -1,0 +1,13 @@
+.box{
+    border: 1px solid grey;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+img{
+    width: 90%;
+}
+
+h1{
+    margin-bottom: 20px;
+}

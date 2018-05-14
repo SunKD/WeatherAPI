@@ -1,0 +1,17 @@
+<div class="box">
+  <h1>San Jose, CA</h1>
+  <div class="row">
+    <div class="col-md-6">
+      <div *ngIf="locationWeather">
+        <p>Humidity: {{locationWeather.main.humidity}}</p>
+        <p>Temperature (Average): {{locationWeather.main.temp}} </p>
+        <p>Temperature(High): {{locationWeather.main.temp_max}}</p>
+        <p>Temperature(Low): {{locationWeather.main.temp_min}}</p>
+        <p>Status: {{locationWeather.weather[0].description}}</p>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <img src="https://images.pexels.com/photos/281184/pexels-photo-281184.jpeg?auto=compress&cs=tinysrgb&h=350">
+    </div>
+  </div>
+</div>
